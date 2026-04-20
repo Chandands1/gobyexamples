@@ -3,6 +3,11 @@ package main
 
 import "fmt"
 
+const s string = "Hello this is constant"
+
 func main() {
-    fmt.Println("Hello from ${example#*-} example")
+    const c string = "inside main constant"
+    fmt.Println(c)
+    fmt.Println(s)
+   
 }
